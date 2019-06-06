@@ -208,6 +208,17 @@ rsc.io/sampler v1.99.99
 go mod tidy
 ```
 
+### 引入代理 国内源
+
+```
+参考文章：https://goproxy.io/
+
+# Enable the go modules feature
+export GO111MODULE=on
+# Set the GOPROXY environment variable
+export GOPROXY=https://goproxy.io
+
+```
 
 ### 其他参考文件
 
